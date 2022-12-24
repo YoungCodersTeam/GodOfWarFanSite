@@ -1,89 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-  <div id="navbar"></div>
-  <body style="background-color:#393E46">
-    <table>
-      <tr>
-        <td>
-          <img
-            src="/Dist/img/kratos-god-of-war-4-god-of-war-games-wallpaper-preview.jpg"
-            style="height: 300px; margin-top: 150px;margin-left: 20px;"
-          />
-        </td>
-        <td>
-          <h1 style="color: red;text-align: center;">Biz Kimiz ?</h1>
-          <br>
-          <p style="color: white; text-indent: 50px">
-            Biz İstanbul Gedik Üniversitesi bilgisayar programcılıgı bölümünden
-            6 öğrencinin oluşturdugu 'Young Coders' takımının
-            üyeleriyiz.Amacımız takım olarak web teknojileri ödevimiz olan
-            projeden alabildigimiz en iyi notu almaktır.Proje sürecinde
-            yönetimin kolaylaşması için github kullandık . Github nimetlerinden
-            yararlanırken birçok yeni teknolojinin ışığında olmaktan mutluluk
-            duyarken bir yandan da projemizi geliştirdik.Projemiz 'God Of War'
-            oyununun fan sitesidir.Projede anasayfa,hakkımızda,iletişim,galeri
-            gibi birçok sayfa bulunmaklar beraber gow evreni,gow karakterleri
-            gibi sayfalarda bizi karşılıyor.Projede kullanılan teknojiler proje
-            kurallarına göre seçilmiştir .Kurallarda bir teknoloji tüm takım
-            üyeleri tarafından biliniyorsa o zaman kullanılabilir dediği için
-            html,css,js ve çok az jquery kullandık.Proje sürecinde alınan tüm
-            kararlar demokratik bir biçimde oylama ile alınmıştır.Projenin
-            konusundan görev dağılımına kadar süreç içerisinde sürekli oylama
-            öne çıkmıştır.
-          </p>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <h2 style="color: red;margin-left: 20px;text-align: center;">
-            Neden Bu Proje ? (God Of War Tanıtım Sayfası)
-          </h2>
-          <br>
-          <p style="color: white; text-indent: 50px;margin-left: 20px;">
-            Proje konusunu seçerken birçok etkeni göz önünde bulundurarak bir
-            seçim yaptık.Oyun tanıtımı fikrini seçerken aslında seçme nedenimiz
-            hem dijital oyunların popüler ve güncel olması hemde en az 10 sayfa
-            kuralı için çok rahat içerik çıkarılabilir bir kategori
-            olmasıdır.Oyun tanıtımını seçtikten sonra seçmemiz gereken tanıtımı
-            yapılıcak oyunun ne olucağıydı.Biz burada aslında dünya genelinde en
-            iyi oyun sıralamarından biri olan 'God Of War' seçimini yaptık.Ve bu
-            seçimde de özenle belirtmek isterimki kişilerin değil takımın kararı
-            öne çıkmıştır.God of war seçildikten sonra ise tüm seriyi yok
-            belirli bir serisinin mi tanıtımını yapmalıyız bunu tartıştık ve
-            genel bir 'GOD' sitesi yapmaya karar verdik.
-          </p>
-        </td>
 
-        <td>
-          <img
-            src="/Dist/img/kratos-god-of-war-4-god-of-war-2018-games-wallpaper-preview.jpg"
-            style="height: 300px; margin-left: 20px"
-          />
-        </td>
-      </tr>
-    </table>
-    <br /><br />
-    <center>
-      <h3 style="color: red">Katkıda Bulunanlar</h1>
-      <ul>
-        <li style="color: white">UMUT TOSUN</li>
-        <li style="color: white">Berkecan Taşdemir</li>
-        <li style="color: white">Taha Erkil</li>
-        <li style="color: white">Ahmet Utku Kurnaz</li>
-        <li style="color: white">Menekşe Tepe</li>
-        <li style="color: white">Furkan Şengezer</li>
-      </ul>
-      <br /><br />
-      <hr />
-      <br /><br />
-      <a href="/Pages/ProjectsMember" style="color: red"
-        >Daha Fazlası İçin Proje Üyeleri Sayfasına Gidebilirsin</a
-      >
-    </center>
-    <br /><br />
-    <br /><br />
-  </body>
-  <div id="footer" style="left: 0; bottom: 0; width: 100%"></div>
+<head>
+  <title>Hakkımızda</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      font-family: 'Playfair Display', serif;
+      display: grid;
+      background-color: #393E46;
+     
+
+      align-content: center;
+      min-height: 100vh;
+    }
+
+    .section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 70vh;
+      width: 75vw;
+      margin: 0 auto;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 12px
+    }
+
+    .image {
+      background-color: #12192c;
+      display: flex;
+      border-radius: 12px 0 0 12px;
+    }
+
+    .image img {
+      height: 50vh;
+      margin: 50px auto
+    }
+
+    .content {
+      background-color: #12192c;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 0 12px 12px 0;
+      color: #fff;
+    }
+
+    .content h2 {
+      text-transform: uppercase;
+      font-size: 36px;
+      letter-spacing: 6px;
+      opacity: 0.9;
+    }
+
+    .content span {
+      height: 0.5px;
+      width: 80px;
+      background: #777;
+      margin: 30px 0;
+    }
+
+    .content p {
+      padding-bottom: 15px;
+      font-weight: 300;
+      opacity: 0.7;
+      width: 60%;
+      text-align: center;
+      margin: 0 auto;
+      line-height: 1.7;
+      color: #ffffff
+    }
+
+    .links {
+      margin: 15px 0;
+    }
+
+    .links li {
+      border: 2px solid #4158D0;
+      list-style: none;
+      border-radius: 5px;
+      padding: 10px 15px;
+      width: 160px;
+      text-align: center;
+    }
+
+    .links li a {
+      text-transform: uppercase;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .links li:hover {
+      border-color: #C850C0;
+    }
+
+    .vertical-line {
+      height: 30px;
+      width: 3px;
+      background: #C850C0;
+      margin: 0 auto;
+    }
+
+    .icons {
+      display: flex;
+      padding: 15px 0;
+    }
+
+    .icons li {
+      display: block;
+      padding: 5px;
+      margin: 5px;
+    }
+
+    .icons li i {
+      font-size: 26px;
+      opacity: 0.8;
+    }
+
+    .icons li i:hover {
+      color: #C850C0;
+      cursor: pointer;
+    }
+
+
+    /*****************/
+
+    @media(max-width: 900px) {
+      section {
+        grid-template-columns: 1fr;
+        width: 100%;
+        border-radius: none;
+      }
+
+      .image {
+        height: 100vh;
+        border-radius: none;
+      }
+
+      .content {
+        height: 100vh;
+        border-radius: none;
+      }
+
+      .content h2 {
+        font-size: 20px;
+        margin-top: 50px;
+      }
+
+      .content span {
+        margin: 20px 0;
+      }
+
+      .content p {
+        font-size: 14px;
+      }
+
+      .links li a {
+        font-size: 14px;
+      }
+
+      .links {
+        margin: 5px 0;
+      }
+
+      .links li {
+        padding: 6px 10px;
+      }
+
+      .icons li i {
+        font-size: 15px;
+      }
+    }
+
+    .credit {
+      text-align: center;
+      color: #000;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .credit a {
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+    }
+  </style>
+     <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+</head>
+<div id="navbar"></div>
+
+<body style="background-color:#393E46">
+  <div style="margin-top: 150px;">
+    <section class="section">
+      <div class="image">
+        <img src="https://i.hizliresim.com/7nkxzbu.png">
+      </div>
+
+      <div class="content">
+        <h2>Hakkımızda</h2>
+        <span></span>
+        <p>İstanbul Gedik Üniversitesi Bilgisayar Programcılığı Bölümün`den 6 öğrencinin bir araya gelerek web
+          teknojileri ödevi için oluşturdugu projedir.</p>
+        <ul class="links">
+          <li><a href="#">Proje Ekibi</a></li>
+          <div class="vertical-line"></div>
+          <li><a href="#">İletişim</a></li>
+          <div class="vertical-line"></div>
+          <li><a href="#">Github</a></li>
+        </ul>
+        <ul class="icons">
+          <li>
+            <i class="fa fa-github"></i>
+          </li>
+        </ul>
+      </div>
+    </section><br><br>
+  </div>
+
+</body>
+<div id="footer" style="left: 0; bottom: 0; width: 100%"></div>
+
 </html>
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
