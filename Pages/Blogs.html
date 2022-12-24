@@ -30,6 +30,9 @@
             background-color: #aaa;
             width: 100%;
             padding: 20px;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-size: cover;
         }
 
         /* Add a card effect for articles */
@@ -37,6 +40,8 @@
             background-color: #393E46;
             padding: 20px;
             margin-top: 20px;
+
+
         }
 
         /* Clear floats after the columns */
@@ -44,6 +49,24 @@
             content: "";
             display: table;
             clear: both;
+        }
+
+        button {
+            background-color:#393E46;
+            /* Green */
+            border: solid red;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            
+        }
+        button:hover{
+            color: red;
         }
 
 
@@ -58,6 +81,7 @@
             }
         }
     </style>
+    <title>Bloglar</title>
 </head>
 <div id="navbar">
 
@@ -71,29 +95,30 @@
     <div class="row">
         <div class="leftcolumn">
             <div class="card">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Dec 7, 2017</h5>
-                <div class="fakeimg" style="height:200px;background-image: url(/Dist/img/981008b6f87cfea11906819feff5ab9c779b3d36.jpeg);"></div>
-                <p>Some text..</p>
+                <h2>Yeni GOW Serisi Yolda!</h2>
+                <h5>Yeni GOW Serisine ait tüm detaylar, Aralık 21, 2022</h5>
+                <img src="/Dist/img/8713acdb65a8f143c85115c667381adffea8fa32.jpeg" style="width: 1100px;height: 400px;">
+                <button>Blog Detayları</button>
             </div>
             <div class="card">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2017</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
-                <p>Some text..</p>
+                <h2>Gow Evrenindeki Tüm easter eggler</h2>
+                <h5>Gow evrenindeki tüm gizemler, Sep 2,Aralık 20 2022</h5>
+                <img src="/Dist/img/981008b6f87cfea11906819feff5ab9c779b3d36.jpeg" style="width: 1100px;height: 400px;">
+                <button>Blog Detayları</button>
             </div>
             <div class="card">
-                <h2>TITLE HEADING</h2>
-                <h5>Title description, Sep 2, 2017</h5>
-                <div class="fakeimg" style="height:200px;">Image</div>
-                <p>Some text..</p>
+                <h2>Krastos`un bilinmeyen özellikleri</h2>
+                <h5>Krastos`u daha yakından tanımaya hazır olun, Sep 2,Aralık 19 2022</h5>
+                <img src="/Dist/img/kratos.jpeg" style="width: 1100px;height: 400px;">
+                <button>Blog Detayları</button>
             </div>
         </div>
         <div class="rightcolumn">
             <div class="card">
                 <h2>Young Coders</h2>
-                <div class="fakeimg" style="height:100px;">Image</div>
-                <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+                <img src="/Dist/img/aboutPicture.png" style="height: 270px;">
+
+                <p>Proje ekibi detaylarına tek tıkla ulaş!</p>
             </div>
             <div class="card">
                 <h3>Popüler Postlar</h3>
@@ -101,14 +126,12 @@
                 <div class="fakeimg">Image</div><br>
                 <div class="fakeimg">Image</div>
             </div>
-            <div class="card">
-                <h3>Follow Me</h3>
-                <p>Some text..</p>
-            </div>
+
         </div>
     </div>
- </body>
-  <div id="footer" style="left: 0; bottom: 0; width: 100%"></div>
+</body>
+<div id="footer" style="left: 0; bottom: 0; width: 100%"></div>
+
 </html>
 
 
