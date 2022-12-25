@@ -1,0 +1,54 @@
+body {
+    background-color: #101924;
+}
+
+#mainImage {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 3%;
+    height: 500px;
+    margin-bottom: 2%;
+}
+
+.image {
+
+    margin-right: 20%;
+    margin-top: 3%;
+    height: 350px;
+    margin-bottom: 2%;
+}
+
+h1 {
+    color: hsla(0, 0%, 100%, .8);
+    font-size: 44px;
+}
+
+h2 {
+    text-align: left;
+    color: hsla(0, 0%, 100%, .8);
+}
+
+li {
+    color: #d37aec;
+    text-align: left;
+    margin-bottom: 1%;
+}
+
+
+#mainP {
+    text-align: left;
+    color: hsla(0, 0%, 100%, .6);
+    font-size: 28px;
+}
+
+p {
+    text-align: left;
+    color: hsla(0, 0%, 100%, .55);
+    ;
+    font-size: 22px;
+}
+
+#main {
+    margin-left: 30%;
+    margin-right: 20%;
+}
