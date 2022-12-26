@@ -2,140 +2,125 @@
 <html lang="en">
 
 <head>
-    <style>
-        /* Header/Blog Title */
-        .header {
-            padding: 30px;
-            font-size: 40px;
-            text-align: center;
-            background: #393E46;
-        }
-
-        /* Create two unequal columns that floats next to each other */
-        /* Left column */
-        .leftcolumn {
-            float: left;
-            width: 75%;
-        }
-
-        /* Right column */
-        .rightcolumn {
-            float: left;
-            width: 25%;
-            padding-left: 20px;
-        }
-
-        /* Fake image */
-        .fakeimg {
-            background-color: #aaa;
-            width: 100%;
-            padding: 20px;
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            background-size: cover;
-        }
-
-        /* Add a card effect for articles */
-        .card {
-            background-color: #393E46;
-            padding: 20px;
-            margin-top: 20px;
-
-
-        }
-
-        /* Clear floats after the columns */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-
-        button {
-            background-color:#393E46;
-            /* Green */
-            border: solid red;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            
-        }
-        button:hover{
-            color: red;
-        }
-
-
-
-        /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-        @media screen and (max-width: 800px) {
-
-            .leftcolumn,
-            .rightcolumn {
-                width: 100%;
-                padding: 0;
-            }
-        }
-    </style>
     <title>Bloglar</title>
+    <link rel="stylesheet" href="/Dist/css/Blog.css">
 </head>
 <div id="navbar">
 
 </div>
 
-<body style="background-color:#393E46">
-    <div class="header" style="margin-top: 100px;">
-        <h2>God Of War Bloglar</h2>
-    </div>
+<body>
+    <div style="margin-top: 150px;">
+        <div class="container">
+            <table>
+                <tr style="width: 90%;">
+                    <td style="margin-right: 1%;">
+                        <div class="card">
+                            <div class="card__header">
+                                <img src="/Dist/img/8713acdb65a8f143c85115c667381adffea8fa32.jpeg"
+                                    alt="card__image" class="card__image" width="600">
+                            </div>
+                            <div class="card__body">
+                                <span class="tag tag-blue">GOW</span>
+                                <h4>God of War Skilleri</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae
+                                    non nemo
+                                    doloribus. Doloremque, nihil! At ea atque quidem!</p>
+                                <a class="button-85" role="button" href="#" style="text-align: center;">Devamını Oku</a>
+                            </div>
 
-    <div class="row">
-        <div class="leftcolumn">
-            <div class="card">
-                <h2>Yeni GOW Serisi Yolda!</h2>
-                <h5>Yeni GOW Serisine ait tüm detaylar, Aralık 21, 2022</h5>
-                <img src="/Dist/img/8713acdb65a8f143c85115c667381adffea8fa32.jpeg" style="width: 1100px;height: 400px;">
-                <button>Blog Detayları</button>
-            </div>
-            <div class="card">
-                <h2>Gow Evrenindeki Tüm easter eggler</h2>
-                <h5>Gow evrenindeki tüm gizemler, Sep 2,Aralık 20 2022</h5>
-                <img src="/Dist/img/981008b6f87cfea11906819feff5ab9c779b3d36.jpeg" style="width: 1100px;height: 400px;">
-                <button>Blog Detayları</button>
-            </div>
-            <div class="card">
-                <h2>Krastos`un bilinmeyen özellikleri</h2>
-                <h5>Krastos`u daha yakından tanımaya hazır olun, Sep 2,Aralık 19 2022</h5>
-                <img src="/Dist/img/kratos.jpeg" style="width: 1100px;height: 400px;">
-                <button>Blog Detayları</button>
-            </div>
+                        </div>
+                        <br>
+                        <div class="card">
+                            <div class="card__header">
+                                <img src="/Dist/img/960x0.jpg" alt="card__image" class="card__image" width="600">
+                            </div>
+                            <div class="card__body">
+                                <span class="tag tag-blue">GOW</span>
+                                <h4>God Of War En iyi Silahların Listesi</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae
+                                    non nemo
+                                    doloribus. Doloremque, nihil! At ea atque quidem!</p>
+                                    <a class="button-85" role="button" href="#" style="text-align: center;">Devamını Oku</a>
+                            </div>
+
+                        </div>
+                    </td>
+                    <td style="margin-right: 1%;">
+                        <div class="card">
+                            <div class="card__header">
+                                <img src="/Dist/img/b42a6ef64cee0954e2df21b22a1d248f-removebg-preview.png"
+                                    alt="card__image" class="card__image" width="600">
+                            </div>
+                            <div class="card__body">
+                                <span class="tag tag-blue">GOW</span>
+                                <h4>God of War Gizemleri</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae
+                                    non nemo
+                                    doloribus. Doloremque, nihil! At ea atque quidem!</p>
+                                    <a class="button-85" role="button" href="#" style="text-align: center;">Devamını Oku</a>
+                            </div>
+
+                        </div>
+                        <br>
+                        <div class="card">
+                            <div class="card__header">
+                                <img src="/Dist/img/godofwar3.jpg" alt="card__image" class="card__image" width="600">
+                            </div>
+                            <div class="card__body">
+                                <span class="tag tag-blue">GOW</span>
+                                <h4>God Of War Yeni Serisi Yolda Mı ?</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae
+                                    non nemo
+                                    doloribus. Doloremque, nihil! At ea atque quidem!</p>
+                                    <a class="button-85" role="button" href="#" style="text-align: center;">Devamını Oku</a>
+                            </div>
+
+                        </div>
+                    </td>
+                    <td style="margin-right: 1%;">
+                        <div class="card">
+                            <div class="card__header">
+                                <img src="/Dist/img/gowascension.jpg" alt="card__image" class="card__image" width="600">
+                            </div>
+                            <div class="card__body">
+                                <span class="tag tag-blue">GOW</span>
+                                <h4>God Of War Evreni</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae
+                                    non nemo
+                                    doloribus. Doloremque, nihil! At ea atque quidem!</p>
+                                    <a class="button-85" role="button" href="#" style="text-align: center;">Devamını Oku</a>
+                            </div>
+
+                        </div>
+                        <br>
+                        <div class="card">
+                            <div class="card__header">
+                                <img src="/Dist/img/gow2018.jpg" class="card__image" width="600">
+                            </div>
+                            <div class="card__body">
+                                <span class="tag tag-blue">GOW</span>
+                                <h4>God Of War Sistem Gereksinimleri</h4>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae
+                                    non nemo
+                                    doloribus. Doloremque, nihil! At ea atque quidem!</p>
+                                    <a class="button-85" role="button" href="#" style="text-align: center;">Devamını Oku</a>
+                            </div>
+
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+
         </div>
-        <div class="rightcolumn">
-            <div class="card">
-                <h2>Young Coders</h2>
-                <img src="/Dist/img/aboutPicture.png" style="height: 270px;">
-
-                <p>Proje ekibi detaylarına tek tıkla ulaş!</p>
-            </div>
-            <div class="card">
-                <h3>Popüler Postlar</h3>
-                <div class="fakeimg">Image</div><br>
-                <div class="fakeimg">Image</div><br>
-                <div class="fakeimg">Image</div>
-            </div>
-
-        </div>
     </div>
+    <br><br>
 </body>
 <div id="footer" style="left: 0; bottom: 0; width: 100%"></div>
 
 </html>
-
-
-
 
 <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 <script>
